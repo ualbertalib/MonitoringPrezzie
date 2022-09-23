@@ -87,7 +87,7 @@ define host{
         statusmap_image vendors/centos.gd2
 }
 ```
-* and that gets you ![Nagios Screenshot](era-app-prd-1.png)
+* and that gets you ![Nagios Screenshot](images/era-app-prd-1.png)
 * "Plugins" are the road (where events are detected) [http://nagios-plugins.org/](http://nagios-plugins.org/). These need to be installed on clients.  On CentOS, there's an RPM  meta-package that install "everything"... 
 
 ```
@@ -185,8 +185,11 @@ define service{
 
 # The future of Nagios
 
-* Icinga2 is the Nagios backend ...
+* [Icinga2](https://icinga.com/docs/icinga-2/latest/doc/01-about/) is just the Nagios backend ...
 * ... with a nicer, modern (not PHP) frontend
-* ... with an API that allows you to script your way to configuratin-automation-nirvana. 
+* ... with an <b>*API that allows you to script your way to configuration-automation-nirvana. *</b>
+* (and, they re-wrote the backend, to modernize it)
+* It uses the same Plugin ecosystem
+* It's *not* compatible with a Nagios configuration tree
 * I've got it running in Dev...
 * ...but Kenton said "Nagios ain't broke; don't waste time tryin' to fix it!") 
