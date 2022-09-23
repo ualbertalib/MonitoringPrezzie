@@ -1,0 +1,12 @@
+site_name: Monitoring Presentation
+nav:
+  - Home: index.md
+  - Nagios: Nagios.md
+  - Netdata: Netdata.md
+  - Prometheus: Prometheus.md
+  - Grafana: Grafana.md
+  - Monitoring in Kubernetes:  Observability.md
+
+
+
+theme: readthedocs
