@@ -1,7 +1,11 @@
 # Presentation: Monitoring
 
+* [Find this Presentation on Github](https://github.com/ualbertalib/MonitoringPrezzie)
+
+## Details
+
 * [Nagios](Nagios)
 * [Netdata](Netdata)
-* [Prometheus](Promethes)
+* [Prometheus](Prometheus)
 * [Grafana](Grafana)
-* [... in K8s](Observability)
+* [Observability in the Cloud](Observability)
