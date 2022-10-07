@@ -4,8 +4,8 @@
 
 ## Details
 
-* [Nagios](Nagios)
-* [Netdata](Netdata)
-* [Prometheus](Prometheus)
-* [Grafana](Grafana)
-* [Observability in the Cloud](Observability)
+* [Nagios](Nagios.md)
+* [Netdata](Netdata.md)
+* [Prometheus](Prometheus.md)
+* [Grafana](Grafana.md)
+* [Observability in the Cloud](Observability.md)
